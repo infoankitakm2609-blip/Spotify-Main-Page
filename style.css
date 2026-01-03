@@ -320,8 +320,40 @@ a {
 
 .heart:hover{
   opacity: 1;
-
 }
+
 .inbox:hover{
   opacity: 1;
 }
+
+.controls-icon{
+  display: flex;
+  /* justify-content: space-evenly; */
+  margin-left: 8rem;
+}
+
+.microphone{
+  margin-right: 0.4rem;
+  opacity: 0.7;
+}
+
+.headphones{
+  margin-right: 0.4rem;
+  opacity: 0.7;
+}
+
+.youtube{
+  margin-right: 0.4rem;
+  opacity: 0.7;
+}
+
+.microphone:hover,
+.headphones:hover,
+.youtube:hover{
+  opacity: 1;
+}
+
+.volume-bar{
+  margin-top: -0.01rem;
+}
+
